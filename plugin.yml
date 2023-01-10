@@ -1,0 +1,11 @@
+name: Fishing
+main: benda95280\Fishing\Fishing
+version: 0.0.1
+api: 4.0.0
+load: STARTUP
+authors: [benda95280, NSNguyenVuong]
+description: Fork of TeaSpoon for Fishing (PM4 by NSNguyenVuong)
+
+permissions:
+  fishing.command.fish:
+    default: true
