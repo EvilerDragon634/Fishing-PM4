@@ -1,9 +1,27 @@
-# Fishing-PM4
+## General
+<table border="1">
+<tr>
+<th>PLUGIN</th>
+<th>API</th>
+<th>VERSION</th>
+</tr>
+<tr>
+<td>FISHING</td>
+<td>4.0.0</td>
+<td>1.0.0</td>
+</tr>
+</table>
 
-## 1 plugin makes it possible for you to use fishing rods and fishing, in addition, it also has functions such as:
- >- Fishing
- >- Show off your fish 
- >- Fish Rating 
- >- Get fish (op)
+## Command
+```
+/fish - Open Fishing Menu
+```
 
+## Download
+- If you use a phone or computer and don't know how to download, <a href="https://github.com/Clickedtran/Fishing-PM4/archive/refs/heads/master.zip">click here</a> for a quick download!
 
+## Install
+## Install
+>- Step 1: Click the `Direct Download` button to download the plugin
+>- Step 2: move the file `Fishing-PM4.phar` into the file `plugins`
+>- Step 3: Restart server
