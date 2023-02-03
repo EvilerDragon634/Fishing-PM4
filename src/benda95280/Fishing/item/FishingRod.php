@@ -51,10 +51,7 @@ class FishingRod extends Durable {
 
 	public function onClickAir(Player $player, Vector3 $directionVector): ItemUseResult{
 			$session = Fishing::getInstance()->getSessionById($player->getId());
-			if($session instanceof Session){
-			  if(!in_array($player->getWorld()->getFolderName(), ["skycreate"])) {
-					return ItemUseResult::NONE();
-				}
+			if($session instanceof Session){			  
 				$playerFishingLevel = FishingLevel::getFishingLevel($player);
 				if(!$session->fishing) {
 					//Cannot fish at night when under level 3
